@@ -16,7 +16,7 @@
         "name": "next"
       }
     ],
-    "types": ["cypress", "jest", "node"]
+    "types": ["jest", "node"]
   },
   "include": [
     "**/*.ts",
@@ -30,13 +30,10 @@
   "exclude": [
     "node_modules",
     "jest.config.ts",
+    "cypress.config.ts",
     "**/*.spec.ts",
     "**/*.test.ts",
-    "cypress/**/*",
-    "cypress.config.ts",
-    "**/*.cy.ts",
-    "**/*.cy.js",
-    "**/*.cy.tsx",
-    "**/*.cy.jsx"
+    "**/*.spec.tsx",
+    "**/*.test.tsx"
   ]
 }

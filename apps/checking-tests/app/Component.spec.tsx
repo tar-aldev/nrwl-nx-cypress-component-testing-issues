@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import { Component } from './Component';
+import { LibToInclude } from '@checking-tests/lib-to-include';
 
 describe('Jest test', () => {
   it('', () => {
-    render(<Component />);
+    render(<LibToInclude />);
 
     expect(true).toEqual(false);
   });

@@ -14,7 +14,8 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
-  },
-  "exclude": ["node_modules", "tmp"]
+    "paths": {
+      "@checking-tests/lib-to-include": ["lib-to-include/src/index.ts"]
+    }
+  }
 }
